@@ -33,8 +33,8 @@ cavalry-mcp ships its own tiny bridge script that publishes each execution's res
 ### 1. Install the MCP server
 
 ```bash
-git clone <this repo> && cd calvary-mcp
-uv sync
+git clone https://github.com/m18h/calvary_mcp.git && cd calvary_mcp
+uv sync --extra kb
 ```
 
 ### 2. Install the bridge script into Cavalry
