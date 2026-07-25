@@ -33,7 +33,7 @@ cavalry-mcp ships its own tiny bridge script that publishes each execution's res
 ### 1. Install the MCP server
 
 ```bash
-git clone https://github.com/m18h/calvary-mcp.git && cd calvary-mcp
+git clone https://github.com/m18h/cavalry-mcp.git && cd cavalry-mcp
 uv sync --extra kb
 ```
 
@@ -59,7 +59,7 @@ Open Cavalry, then click **Scripts → cavalry-mcp-bridge.js**. A small window a
   "mcpServers": {
     "cavalry": {
       "command": "uv",
-      "args": ["run", "--directory", "/absolute/path/to/calvary-mcp", "--extra", "kb", "cavalry-mcp"]
+      "args": ["run", "--directory", "/absolute/path/to/cavalry-mcp", "--extra", "kb", "cavalry-mcp"]
     }
   }
 }
@@ -68,7 +68,7 @@ Open Cavalry, then click **Scripts → cavalry-mcp-bridge.js**. A small window a
 **Claude Code**:
 
 ```bash
-claude mcp add cavalry -- uv run --directory /absolute/path/to/calvary-mcp --extra kb cavalry-mcp
+claude mcp add cavalry -- uv run --directory /absolute/path/to/cavalry-mcp --extra kb cavalry-mcp
 ```
 
 **OpenCode** (`~/.config/opencode/opencode.jsonc`):
@@ -78,7 +78,7 @@ claude mcp add cavalry -- uv run --directory /absolute/path/to/calvary-mcp --ext
   "mcp": {
     "cavalry": {
       "type": "local",
-      "command": ["uv", "run", "--directory", "/absolute/path/to/calvary-mcp", "--extra", "kb", "cavalry-mcp"],
+      "command": ["uv", "run", "--directory", "/absolute/path/to/cavalry-mcp", "--extra", "kb", "cavalry-mcp"],
       "enabled": true
     }
   }
