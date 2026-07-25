@@ -1,5 +1,13 @@
 # cavalry-mcp
 
+[![Release](https://img.shields.io/github/v/release/m18h/cavalry-mcp)](https://github.com/m18h/cavalry-mcp/releases)
+<!-- Uncomment once published to PyPI (publish.yml currently fails): -->
+<!-- [![PyPI](https://img.shields.io/pypi/v/cavalry-mcp)](https://pypi.org/project/cavalry-mcp/) -->
+[![Publish](https://github.com/m18h/cavalry-mcp/actions/workflows/publish.yml/badge.svg)](https://github.com/m18h/cavalry-mcp/actions/workflows/publish.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![Cavalry 2.4+](https://img.shields.io/badge/cavalry-2.4%2B-orange.svg)](https://cavalry.studio)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants full, two-way control of [Cavalry](https://cavalry.studio) — the 2D motion design software — from natural language.
 
 Create layers, set attributes, connect nodes, animate with keyframes and Magic Easing, render frames, and — uniquely — **see the results**, because this server gets *real return values* back from Cavalry.
