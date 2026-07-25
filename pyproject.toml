@@ -26,8 +26,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/m18h/calvary_mcp"
-Issues = "https://github.com/m18h/calvary_mcp/issues"
+Repository = "https://github.com/m18h/calvary-mcp"
+Issues = "https://github.com/m18h/calvary-mcp/issues"
 
 [project.optional-dependencies]
 kb = [
